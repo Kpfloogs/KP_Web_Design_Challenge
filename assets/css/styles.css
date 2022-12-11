@@ -1,0 +1,52 @@
+
+.navbar-brand{
+    color: white;
+    background-color: darkcyan;
+    padding-left: 10px;
+    padding-right:10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+
+body{
+    background-color: lightgray;
+}
+
+h1{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: darkcyan;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#landing-thumb{
+    width:400px
+}
+
+h2{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: darkcyan;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.my-col1{
+    background-color: white;
+    margin-top:50px;
+    margin-right:20px
+}
+
+.my-col2{
+    background-color: white;
+    margin-top:50px
+}
+
+h5{
+    color: darkcyan;
+}
+
+h6{
+    padding-bottom: 40px;
+}
