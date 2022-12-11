@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Add a title here -->
+    <title>Bootstrap Wind Speed Visualization</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    <div w3-include-html="vis_navbar.html"></div>
+    <!-- End of navbar -->
+
+    <!-- Start of container -->
+    <div class="container my-container">
+      <div class="row justify-content-around my-row">
+        <div class="col-7 my-col1">
+          <div class="clearfix">
+            <h1 class="fw-bold text-center">Wind Speed</h1>
+            <img src="../assets/images/Fig4.png" class="img-fluid" alt="example image of data">
+          
+            <p>
+              Wind speed, in regards to latitude, has barely any correlation as well. One might 
+              experience higher wind speeds as one moves postively away from the equator (again
+              towards 80 degrees latitude, where a cluster of islands is located that includes
+              Grand Cayman). An interesting point to note about this graph is it looks slightly
+              like a coral head viewed on a level under water, if one uses imagination. On a most
+              recent excursion to Rum Point, a certain student became scuba certified and was able
+              to experience coral heads up close. Upon observation, this student was gifted a viewing
+              of a tiny purple seahorse, said to be rare in Caymanian waters. The sudent in question 
+              currently looks longingly at this Wind Speed graph, reminiscing about coral heads in 
+              80 degree water from their pearch in a poorly insulated attic with their 
+              fingers rendered immobile by the frigid Minnesota winter seeping in through the 
+              cracks. Thank you for taking the time to grade my assignments, and if you've read my snippets, 
+              thanks for coming along on this journey. 
+            </p>
+          </div>   
+        </div>
+       <!-- Start of Visualizations imageNav Area -->
+       <div class="col my-col2">
+        <h2 class="fw-bold text-center">Visualizations</h2>
+        <div class="container">
+          <div class="row row-cols-auto">
+            <a href="temp.html"><img class=" col image-fluid" src="../assets/images/Fig1.png" width="200" height="200" alt=""/></a>
+            <a href="humidity.html"><img class=" col image-fluid" src="../assets/images/Fig2.png" width="200" height="200" alt=""/></a>
+            <a href="cloudiness.html"><img class=" col image-fluid" src="../assets/images/Fig3.png" width="200" height="200" alt=""/></a>
+            <a href="wind.html"><img class=" col image-fluid" src="../assets/images/Fig4.png" width="200" height="200" alt=""/></a>
+          </div>
+        </div>
+      </div>
+      <!-- End of the Visualizations imageNav Area -->
+    </div>      
+  </div>
+
+
+    <!-- End of container -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="../includes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+
+</html>
